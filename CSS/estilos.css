@@ -1,0 +1,25 @@
+*{
+    background-color: rgb(182, 52, 52);
+    color: rgb(53, 31, 159);
+}
+h1{
+    color: rgb(20, 12, 169);
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    color: rgb(rgb(111, 17, 199));
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    color: rgb(12, 160, 49);
+    font-family: 'Times New Roman', Times, serif;
+}
+#boton{
+    background-color: blueviolet;
+}
+.resaltado{
+    background-color: aquamarine;
+    color: skyblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
