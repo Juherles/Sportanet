@@ -1,0 +1,98 @@
+/*{
+    background-color: rgb(182, 52, 52);
+    color: rgb(53, 31, 159);
+}
+h1{
+    color: rgb(20, 12, 169);
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    color: rgb(rgb(111, 17, 199));
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    color: rgb(12, 160, 49);
+    font-family: 'Times New Roman', Times, serif;
+}
+#boton{
+    background-color: blueviolet;
+}
+.resaltado{
+    background-color: aquamarine;
+    color: skyblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}-->
+<style>
+    /* Personalizar fondo de la navbar */
+    .navbar-dark {
+        background-color: #343a40; /* Fondo gris oscuro */
+      }
+      .navbar-brand {
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+      .navbar-nav .nav-link {
+        font-size: 1.1rem;
+      }
+      .navbar-nav .dropdown-menu {
+        background-color: #343a40;
+        border: none;
+      }
+      .navbar-nav .dropdown-item {
+        color: white;
+      }
+      .navbar-nav .dropdown-item:hover {
+        background-color: #495057; /* Cambia el color al pasar el cursor */
+      }
+      
+      /* Botón de búsqueda */
+      .btn-outline-success {
+        color: white;
+        border-color: white;
+      }
+      .btn-outline-success:hover {
+        background-color: #28a745;
+        color: white;
+        border-color: white;
+      }
+      
+      /* Ajustes generales de la página */
+      body {
+        background-color: #f8f9fa; /* Fondo claro */
+        font-family: 'Roboto', sans-serif; /* Fuente moderna */
+      }
+      h1, h2, h3 {
+        color: #343a40; /* Títulos en gris oscuro */
+        margin-top: 20px;
+      }
+      p.resaltado {
+        background-color: #e9ecef;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 1.2rem;
+      }
+      
+      /* Imagenes */
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+.videospeech{
+  width: 1280px;
+  height: 720px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.modeloER{
+  width: 1280px;
+  height: 720px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.members{
+  font-size: 20px;
+  margin-left: 40px;
+}
