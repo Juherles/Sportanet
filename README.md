@@ -1,2 +1,0 @@
-# Sportanet
-Sportanet
