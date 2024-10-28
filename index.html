@@ -3,17 +3,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sportanet</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="CSS/estilos.css">
   
   <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="#  ">
+  <link rel="icon" type="IMG" href="IMG/Icon.png">
 </head>
 
 <!-- Barra de Navegación -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container-fluid"> <!-- Cambiado a container-fluid para cubrir toda la pantalla -->
-        <a class="navbar-brand" href="#">
-            <img src="#" alt="Logo" class="logo"> <!-- Logo añadido aquí -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="IMG/Icon.png">
+            <img src="#" alt="logo" class="logo"> <!-- Logo añadido aquí -->
             Sportanet
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,17 +22,15 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a class="nav-link" href="#about">Acerca de</a></li>
-                <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
                 <li class="nav-item"><a class="nav-link" href="#video">Video</a></li>
                 <li class="nav-item"><a class="nav-link" href="#team">Integrantes</a></li>
-                <li class="nav-item"><a class="nav-link" href="#documents">Documento</a></li>
-                <li class="nav-item"><a class="nav-link" href="#models">Modelos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#documents">Documentos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#models">Modelos y Diagramas</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
             </ul>
         </div>
     </div>
 </nav>
-
 <!-- Sección de Hero -->
 <section class="hero text-center py-5">
     <div class="container">
@@ -46,12 +44,37 @@
 <section id="about" class="py-5">
     <div class="container">
         <h2 class="text-center mb-4">Acerca de</h2>
-        <p class="text-center">Somos estudiantes dedicados a la tecnología y la innovación. Este proyecto refleja nuestro aprendizaje en desarrollo y diseño web.</p>
+        <p class="text-center">
+            En los últimos años, el deporte ha crecido en importancia dentro de nuestra sociedad, convirtiéndose en un estilo de vida saludable. Sin embargo, el sedentarismo ha aumentado debido a las nuevas tecnologías, lo que ha llevado a un incremento de enfermedades crónicas.
+        </p>
+        <p class="text-center">
+            El deporte se integra como una necesidad vital para el crecimiento humano, promoviendo hábitos saludables y el uso adecuado del tiempo libre. Necesitamos más espacios deportivos accesibles para todos, ya que la promoción de estos eventos enfrenta grandes desafíos.
+        </p>
+        <p class="text-center">
+            Nuestro proyecto busca incorporar herramientas tecnológicas que potencien los eventos deportivos, facilitando su promoción y acceso. Con una plataforma virtual, los usuarios podrán encontrar y participar en eventos de manera sencilla y efectiva.
+        </p>
+        <p class="text-center">
+            **Propósito y Justificación:** Desarrollar una plataforma web que gestione la programación, promoción y administración de eventos deportivos, optimizando la comunicación entre organizadores y participantes.
+        </p>
+        <p class="text-center">
+            **Objetivos del Proyecto:**
+            <ul class="list-unstyled">
+                <li>Crear un espacio digital para la promoción de entidades deportivas.</li>
+                <li>Ofrecer una tienda online para productos de cada entidad.</li>
+                <li>Facilitar un sistema de membresías con beneficios.</li>
+                <li>Promover eventos y gestionar la asistencia.</li>
+                <li>Crear una comunidad deportiva en línea.</li>
+            </ul>
+        </p>
+        <p class="text-center">
+            **Alcance del Proyecto:** Comenzaremos en el Club Rincón de Cajicá, mejorando la comunicación en torneos locales, y planeamos expandirnos a otros clubes en Bogotá.
+        </p>
     </div>
 </section>
 
+
 <!-- Sección Servicios -->
-<section id="services" class="py-5 bg-light">
+<!----<section id="services" class="py-5 bg-light">
     <div class="container">
         <h2 class="text-center mb-4">Servicios</h2>
         <div class="row">
@@ -81,53 +104,54 @@
             </div>
         </div>
     </div>
-</section>
+</section>--->
 
 <!-- Sección de Video -->
 <section id="video" class="py-5">
     <div class="container">
-        <h2 class="text-center mb-4">Presentación en Video</h2>
-        <div class="ratio ratio-16x9">
-            <iframe src="https://www.youtube.com/embed/erUG9lI3x5w" title="Presentación del Proyecto" allowfullscreen></iframe>
-        </div>
+        <h2 class="text-center mb-4">Speech promocional</h2>
+        <div class="text-center">
+            <iframe src="https://www.youtube.com/embed/tUeuuUw2-gX50o3c" title="Presentación del Proyecto" allowfullscreen style="width: 60%; height: 450px;"></iframe>
+        </div>        
     </div>
 </section>
 
 <!-- Sección Integrantes -->
 <section id="team" class="py-5 bg-light">
     <div class="container">
-        <h2 class="text-center mb-4">Integrantes</h2>
+        <h2 class="text-center mb-4" style="color: #000000;">Integrantes</h2>
         <div class="row text-center">
-            <div class="col-6 col-md-3">
-                <img src="integrante1.jpg" alt="Integrante" class="rounded-circle mb-2" width="150" height="150">
-                <h5>Daniel Gustavo Montañez Hurtado</h5>
-                <p>Lider de Proyecto</p>
+            <div class="col-md-3">
+                <img src="integrante1.jpg" alt="Integrante" class="team-img mb-2" width="150" height="150">
+                <h5 class="integrante-nombre">Daniel Gustavo Montañez Hurtado</h5>
+                <p class="integrante-rol">Líder de Proyecto</p>
             </div>
             <div class="col-6 col-md-3">
-                <img src="integrante2.jpg" alt="Integrante" class="rounded-circle mb-2" width="150" height="150">
-                <h5>Danilo Jose Cantor Muñoz</h5>
-                <p>Programador</p>
+                <img src="integrante2.jpg" alt="Integrante" class="team-img mb-2" width="150" height="150">
+                <h5 class="integrante-nombre">Danilo Jose Cantor Muñoz</h5>
+                <p class="integrante-rol">Programador</p>
             </div>
             <div class="col-6 col-md-3">
-                <img src="integrante3.jpg" alt="Integrante" class="rounded-circle mb-2" width="150" height="150">
-                <h5>Heyder Ivan Ramos Rodriguez</h5>
-                <p>Analista y desarrollador de Base de Datos</p>
+                <img src="integrante3.jpg" alt="Integrante" class="team-img mb-2" width="150" height="150">
+                <h5 class="integrante-nombre">Heyder Ivan Ramos Rodriguez</h5>
+                <p class="integrante-rol">Analista y Desarrollador de Base de Datos</p>
             </div>
             <div class="col-6 col-md-3">
-                <img src="integrante4.jpg" alt="Integrante" class="rounded-circle mb-2" width="150" height="150">
-                <h5>Juherles Jesus Bravo Renia</h5>
-                <p>Diseño y Marketing</p>
+                <img src="IMG/Juherles2.jpeg" alt="Integrante" class="team-img mb-2" width="150" height="150">
+                <h5 class="integrante-nombre">Juherles Jesus Bravo Renia</h5>
+                <p class="integrante-rol">Diseño y Marketing</p>
             </div>
         </div>
     </div>
 </section>
 
+
 <!-- Sección de Documento -->
 <section id="documents" class="py-5">
     <div class="container">
-        <h2 class="text-center mb-4">Documento del Proyecto</h2>
+        <h2 class="text-center mb-4" style="color: #000000;">Documento del Proyecto</h2>
         <div class="document-viewer text-center">
-            <iframe src="documento_proyecto.pdf" width="100%" height="600px" style="border: 1px solid #ddd;"></iframe>
+            <iframe src="IMG/Sportanet.pdf" width="60%" height="600px" style="border: 1px solid #ddd;"></iframe>
         </div>
     </div>
 </section>
@@ -135,19 +159,19 @@
 <!-- Sección Modelos y Diagramas -->
 <section id="models" class="py-5 bg-light">
     <div class="container">
-        <h2 class="text-center mb-4">Modelos y Diagramas</h2>
+        <h2 class="text-center mb-4" style="color: #000000;">Modelos y Diagramas</h2>
         <div class="row">
             <div class="col-12 col-md-4 mb-4">
-                <h5 class="text-center">Modelo Relacional</h5>
-                <iframe src="modelo_relacional.pdf" width="100%" height="500px" style="border: 1px solid #ddd;"></iframe>
+                <h5 class="text-center mb-4" style="color: #000000;">Modelo Relacional</h5>
+                <iframe src="IMG/Modelo R.pdf" width="100%" height="500px" style="border: 1px solid #ddd;"></iframe>
             </div>
             <div class="col-12 col-md-4 mb-4">
-                <h5 class="text-center">Modelo Entidad-Relación</h5>
-                <iframe src="modelo_entidad_relacion.pdf" width="100%" height="500px" style="border: 1px solid #ddd;"></iframe>
+                <h5 class="text-center mb-4" style="color: #000000;">Modelo Entidad-Relacion</h5>
+                <iframe src="IMG/Diagrama E_R.pdf" width="100%" height="500px" style="border: 1px solid #ddd;"></iframe>
             </div>
             <div class="col-12 col-md-4 mb-4">
-                <h5 class="text-center">Diagrama de Gantt</h5>
-                <iframe src="diagrama_gantt.pdf" width="100%" height="500px" style="border: 1px solid #ddd;"></iframe>
+                <h5 class="text-center mb-4" style="color: #000000;">Diagrama de Gantt</h5>
+                <iframe src="IMG/Gantt.pdf" width="100%" height="500px" style="border: 1px solid #ddd;"></iframe>
             </div>
         </div>
     </div>
@@ -170,5 +194,10 @@
                 <label for="message" class="form-label">Mensaje:</label>
                 <textarea class="form-control" id="message" rows="4" required></textarea>
             </div>
-            <button type
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+</section>
 
+<!-- Script de Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
