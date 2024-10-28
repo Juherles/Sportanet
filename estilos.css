@@ -1,169 +1,169 @@
-/* General */
-* {
+/* Fondo general y tipografía */
+body {
+  background-color: #0E1735; /* Azul oscuro */
+  color: #FFFFFF; /* Texto en blanco */
+  font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: 'Arial', sans-serif;
-  scroll-behavior: smooth;
 }
 
-body {
-  color: #333 !important;
-}
-
-/* Barra de Navegación */
+/* Barra de navegación */
 .navbar {
-  background-color: #222 !important;
+  background-color: #E3E3E3; /* Gris claro */
   padding: 1rem;
 }
 
 .navbar-brand {
-  font-weight: bold !important;
-  color: #f4c842 !important;
+  font-size: 1.8rem;
+  color: #000000; /* Verde turquesa */
 }
 
 .navbar-brand:hover {
-  color: #ffda6b !important;
+  color: #00A2E7; /* Azul claro */
 }
 
 .navbar-nav .nav-link {
-  color: #ddd !important;
-  font-size: 1.1rem !important;
-  transition: color 0.3s ease !important;
+  color: #1A1A1A;
+  margin: 0 1rem;
+  font-size: 1.1rem;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #f4c842 !important;
+  color: #00C3DE; /* Azul celeste */
 }
 
-/* Hero Section */
-.hero {
-  background: linear-gradient(135deg, #f45d3f, #ffda6b) !important;
-  color: white !important;
-  padding: 5rem 0 !important;
+/* Encabezado principal */
+header h1 {
+  color: #00FF87; /* Verde brillante */
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
-.hero h1 {
-  font-size: 3rem !important;
-  font-weight: bold !important;
+/* Contenido principal */
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
-.hero p {
-  font-size: 1.2rem !important;
+.content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
 
-.hero .btn {
-  background-color: #fff !important;
-  color: #f45d3f !important;
-  border: none !important;
-  font-size: 1.1rem !important;
-  transition: background-color 0.3s ease, color 0.3s ease !important;
+.content .highlight {
+  color: #00FF87; /* Verde brillante */
+  background-color: #0E1735;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
 }
 
-.hero .btn:hover {
-  background-color: #f45d3f !important;
-  color: white !important;
+/* Botones */
+button, .btn {
+  background-color: #00DDB9; /* Verde turquesa */
+  color: #FFFFFF;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
 }
 
-/* Sección General */
-section {
-  padding: 4rem 0 !important;
+button:hover, .btn:hover {
+  background-color: #00A2E7; /* Azul claro */
 }
 
-h2 {
-  font-size: 2.5rem !important;
-  font-weight: bold !important;
-  color: #333 !important;
-  margin-bottom: 2rem !important;
+/* Secciones */
+.section {
+  background-color: #8FF08B; /* Verde suave */
+  padding: 2rem;
+  margin: 1rem 0;
+  border-radius: 5px;
 }
 
-.text-center {
-  text-align: center !important;
+.section h2 {
+  color: #00C3DE; /* Azul celeste */
 }
 
-.container p {
-  font-size: 1rem !important;
-  line-height: 1.6 !important;
+.section p {
+  color: #FFFFFF;
 }
 
-/* Sección Acerca de */
-#about p {
-  font-size: 1.2rem !important;
-  color: #555 !important;
+/* Resaltados */
+.highlight-yellow {
+  background-color: #F9F871; /* Amarillo suave */
+  color: #0E1735; /* Texto oscuro */
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
 }
 
-/* Sección Servicios */
-#services .card {
-  border: none !important;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
-  transition: transform 0.3s ease !important;
+/* Enlaces */
+a {
+  color: #00A2E7; /* Azul claro */
+  text-decoration: none;
 }
 
-#services .card:hover {
-  transform: scale(1.05) !important;
+a:hover {
+  color: #00DDB9; /* Verde turquesa */
+  text-decoration: underline;
 }
 
-#services .card-title {
-  font-size: 1.5rem !important;
-  color: #f45d3f !important;
-}
-
-#services .card-text {
-  color: #666 !important;
-}
-
-/* Sección Integrantes */
-#team img {
-  border: 4px solid #f4c842 !important;
-  transition: transform 0.3s ease !important;
-}
-
-#team img:hover {
-  transform: scale(1.1) !important;
-}
-
-#team h5 {
-  margin-top: 1rem !important;
-  color: #f45d3f !important;
-}
-
-#team p {
-  color: #666 !important;
-}
-
-/* Sección Contacto */
-#contact .form-label {
-  color: #666 !important;
-}
-
-#contact input, 
-#contact textarea {
-  border: 1px solid #ddd !important;
-  border-radius: 5px !important;
-}
-
-#contact button {
-  background-color: #f45d3f !important;
-  color: white !important;
-  font-weight: bold !important;
-  transition: background-color 0.3s ease !important;
-}
-
-#contact button:hover {
-  background-color: #ff774a !important;
-}
-
-/* Pie de Página */
+/* Footer */
 footer {
-  background-color: #333 !important;
-  color: #ddd !important;
-  text-align: center !important;
-  padding: 1rem 0 !important;
-  font-size: 0.9rem !important;
+  background-color: #0E1735;
+  color: #FFFFFF;
+  padding: 1.5rem 0;
 }
-/* Estilo del logotipo en la barra de navegación */
-.navbar-brand .logo {
-  height: 30px; /* Cambia a 35px o 40px según prefieras el tamaño */
-  margin-right: 8px; /* Espacio entre el logotipo y el texto */
-  vertical-align: middle;
+
+footer p, footer a {
+  margin: 0;
+  font-size: 0.9rem;
+}
+.integrante-nombre {
+  color: #000000; /* Negro */
+  font-weight: bold; /* Opcional: hace que el nombre sea más destacable */
+}
+
+.integrante-rol {
+  color: #000000; /* Negro */
+}
+
+/* Estilo para la sección Acerca de */
+#about {
+  background-color: #1C1F2A; /* Fondo oscuro para contraste */
+  color: #FFFFFF; /* Texto en blanco */
+  padding: 2rem; /* Espaciado interior */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra sutil */
+}
+
+#about h2 {
+  color: #00DDB9; /* Verde brillante para el título */
+  font-size: 2rem; /* Tamaño del título */
+  text-align: center; /* Alineación centrada */
+  margin-bottom: 1.5rem; /* Margen inferior */
+}
+
+#about p {
+  font-size: 1.1rem; /* Tamaño de texto */
+  line-height: 1.6; /* Espaciado entre líneas */
+  margin-bottom: 1rem; /* Espaciado inferior entre párrafos */
+}
+
+#about ul {
+  margin-top: 1rem; /* Margen superior para la lista */
+}
+
+#about ul li {
+  font-size: 1.1rem; /* Tamaño de texto de la lista */
+  margin-bottom: 0.5rem; /* Espaciado inferior entre elementos de la lista */
+  padding-left: 1.2rem; /* Espaciado a la izquierda para la lista */
+  position: relative; /* Para posicionar el icono de lista */
+}
+
+#about ul li::before {
+  content: '•'; /* Simbolo de lista personalizado */
+  color: #00DDB9; /* Verde turquesa para el símbolo */
+  position: absolute; /* Posición absoluta */
+  left: 0; /* Alineación a la izquierda */
 }
